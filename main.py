@@ -158,7 +158,6 @@ if __name__ == "__main__":
 
     '''
     Examples extracting the schedule (for seasonType: 1=preseason, 2=regular season, 3=playoffs) 
-        but honestly I don't care about preseason
 
       get_schedule_data(2025, 1, 2) for Week 1 of 2025, 
       get_schedule_data(2024, 15, 2) for Week 15 of 2024, 
@@ -179,4 +178,4 @@ if __name__ == "__main__":
             get_schedule_data(year, playoffWeekMapping.get(week), 3)
         else:
             get_schedule_data(year, week, 2)
-        
+
